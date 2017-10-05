@@ -23,10 +23,17 @@
                 <use>standard</use>
                 <args>
                     <module>Vassallo_Helloworld</module>
-                    <frontName>Hello</frontName>
+                    <frontName>hello</frontName>
                 </args>
             </vassallo_helloworld>
         </routers>
+        <layout>
+            <updates>
+                <vassallo_helloworld>
+                    <file>vassallo_helloworld.xml</file>
+                </vassallo_helloworld>
+            </updates>
+        </layout>
     </frontend>
     <default>
         <vassallo_helloworld>

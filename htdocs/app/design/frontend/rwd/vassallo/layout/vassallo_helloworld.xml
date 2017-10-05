@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layout>
+    <default>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+        <reference>
+            <block type="vassallo_helloworld/helloworld" name="helloworld.content" template=""/>
+        </reference>
+    </default>
+</layout>
