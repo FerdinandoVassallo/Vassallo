@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <modules>
+        <Vassallo_Helloworld2>
+            <version>0.1.0</version>
+        </Vassallo_Helloworld2>
+    </modules>
+    <global>
+        <block>
+            <vassallo_helloworld2>
+                <class>Vassallo_Helloworld2_Block</class>
+            </vassallo_helloworld2>
+        </block>
+        <helper>
+            <vassallo_helloworld2>
+                <class>Vassallo_Helloworld2_Helper</class>
+            </vassallo_helloworld2>
+        </helper>
+    </global>
+    <default>
+        <vassallo_helloworld2>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Custom message</message>
+            </configuration>
+        </vassallo_helloworld2>
+    </default>
+</config>
