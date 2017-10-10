@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Vassallo_Helloworld>
+            <version>0.1.0</version>
+        </Vassallo_Helloworld>
+    </modules>
+    <global>
+        <blocks>
+            <vassallo_helloworld>
+                <class>Vassallo_Helloworld_Block</class>
+            </vassallo_helloworld>
+        </blocks>
+        <helpers>
+            <vassallo_helloworld>
+                <class>Vassallo_Helloworld_Helper</class>
+            </vassallo_helloworld>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <vassallo_helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Vassallo_Helloworld</module>
+                    <frontName>hello</frontName>
+                </args>
+            </vassallo_helloworld>
+        </routers>
+        <layout>
+            <updates>
+                <vassallo_helloworld>
+                    <file>vassallo_helloworld.xml</file>
+                </vassallo_helloworld>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <vassallo_helloworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Test Message from config xml</message>
+            </configuration>
+        </vassallo_helloworld>
+    </default>
+</config>
